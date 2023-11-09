@@ -19,15 +19,15 @@ layout {
             mode_normal  "#[bg=blue,fg=black] {name} "
             mode_tmux    "#[bg=#ffc387] {name} "
 
-            tab_normal              "#[fg=#6C7086] {name} "
-            tab_normal_fullscreen   "#[fg=#6C7086] {name} []"
-            tab_normal_sync         "#[fg=#6C7086] {name} <>"
-            tab_active              "#[fg=#9399B2,bg=#737aa2,bold] {name} "
-            tab_active_fullscreen   "#[fg=#9399B2,bg=#737aa2,bold] {name} []"
-            tab_active_sync         "#[fg=#9399B2,bg=#737aa2,bold] {name} <>"
+            tab_normal              "#[fg=#6C7086,bg=#938f79] {name} "
+            tab_normal_fullscreen   "#[fg=#6C7086,bg=#938f79] {name} []"
+            tab_normal_sync         "#[fg=#6C7086,bg=#938f79] {name} <>"
+            tab_active              "#[fg=#00619B,bg=#ff9e64,bold] {name} "
+            tab_active_fullscreen   "#[fg=#00619B,bg=#ff9e64,bold] {name} []"
+            tab_active_sync         "#[fg=#00619B,bg=#ff9e64,bold] {name} <>"
 
-            datetime                "#[fg=#6C7086,bg=#2f334d,bold] {format} "
-            datetime_format         "%A, %d %b %Y %H:%M"
+            datetime                "#[fg=#6C7086,bg=#938f79,bold] {format} "
+            datetime_format         "%H:%M:%S"
             datetime_timezone       "Asia/Shanghai"
         }
     }
@@ -50,15 +50,15 @@ layout {
             mode_normal  "#[bg=blue,fg=black] {name} "
             mode_tmux    "#[bg=#ffc387] {name} "
 
-            tab_normal              "#[fg=#6C7086] {name} "
-            tab_normal_fullscreen   "#[fg=#6C7086] {name} []"
-            tab_normal_sync         "#[fg=#6C7086] {name} <>"
-            tab_active              "#[fg=#9399B2,bg=#737aa2,bold] {name} "
-            tab_active_fullscreen   "#[fg=#9399B2,bg=#737aa2,bold] {name} []"
-            tab_active_sync         "#[fg=#9399B2,bg=#737aa2,bold] {name} <>"
+            tab_normal              "#[fg=#6C7086,bg=#938f79] {name} "
+            tab_normal_fullscreen   "#[fg=#6C7086,bg=#938f79] {name} []"
+            tab_normal_sync         "#[fg=#6C7086,bg=#938f79] {name} <>"
+            tab_active              "#[fg=#00619B,bg=#ff9e64,bold] {name} "
+            tab_active_fullscreen   "#[fg=#00619B,bg=#ff9e64,bold] {name} []"
+            tab_active_sync         "#[fg=#00619B,bg=#ff9e64,bold] {name} <>"
 
-            datetime                "#[fg=#6C7086,bg=#2f334d,bold] {format} "
-            datetime_format         "%A, %d %b %Y %H:%M"
+            datetime                "#[fg=#6C7086,bg=#938f79,bold] {format} "
+            datetime_format         "%H:%M:%S"
             datetime_timezone       "Asia/Shanghai"
           }
       }
